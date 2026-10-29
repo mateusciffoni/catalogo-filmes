@@ -1,0 +1,139 @@
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+/* ---------- Cabeçalho ---------- */
+.cabecalho {
+    border: 1px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.cabecalho h2 {
+    margin: 0 0 12px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 0.8em;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.menu a:hover,
+.menu a.active {
+    background: #000;
+    color: #fff;
+}
+
+/* ---------- Lista (Início) ---------- */
+.lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    gap: 24px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.item:hover {
+    background: #f0f0f0;
+    border-color: #000;
+}
+
+.item-id {
+    min-width: 60px;
+}
+
+/* ---------- Caixas (Ler / Criar / Alterar / Apagar) ---------- */
+.caixa {
+    border: 1px solid #ccc;
+    padding: 16px 20px 20px;
+}
+
+.caixa h3 {
+    margin-top: 0;
+}
+
+.dados p {
+    margin: 6px 0;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    font-size: 1em;
+}
+
+.botoes {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #000;
+    color: #fff;
+}
+
+.botao.perigo {
+    border-color: #c00;
+    color: #c00;
+}
+
+.botao.perigo:hover {
+    background: #c00;
+    color: #fff;
+}
+
+.mensagem {
+    text-align: center;
+}
+
+.erro {
+    color: #c00;
+}
